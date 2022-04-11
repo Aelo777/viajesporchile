@@ -28,46 +28,77 @@
 </head>
 <body>
 
-    <container>
-        <!--Inicio-->
-    
-        <!--Navbar-->
+    <div class="main-container">
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="w-25" src="./assets/img/viajes.svg" alt="Viajes Chile">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!--Margen de inicio (start) automático-->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienes">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Fin menú navbar-->
+            </div>
+        </nav><!--Fin navbar-->
     
         <!--Header-->
 
         <!--Seccion presentación-->
-        <h1 class="fw-bold text-uppercase text-center">Quiénes somos</h1>
-        <container class="row">
+        <section id="quienes">
+            <h1 class="fw-bold text-uppercase text-center">Quiénes somos</h1>
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, placeat ratione. Consectetur, amet at dolorem error ipsa excepturi natus autem ex, iure, recusandae culpa iusto earum dignissimos quaerat numquam nobis!</p>
+                </div>
             <div class="col-12 col-sm-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, placeat ratione. Consectetur, amet at dolorem error ipsa excepturi natus autem ex, iure, recusandae culpa iusto earum dignissimos quaerat numquam nobis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, in! Ab, sit, delectus suscipit impedit nemo molestiae placeat numquam doloribus distinctio saepe eos aut recusandae dolores similique quae atque quisquam.</p>
             </div>
             <div class="col-12 col-sm-4">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, in! Ab, sit, delectus suscipit impedit nemo molestiae placeat numquam doloribus distinctio saepe eos aut recusandae dolores similique quae atque quisquam.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit molestiae optio laborum error incidunt necessitatibus fugiat, officia iste fuga quam consequatur doloribus rem obcaecati illum voluptatem, quos mollitia aut!</p>
             </div>
-            <div class="col-12 col-sm-4">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit molestiae optio laborum error incidunt necessitatibus fugiat, officia iste fuga quam consequatur doloribus rem obcaecati illum voluptatem, quos mollitia aut!</p>
-            </div>
-        </container>
+        </section><!--Fin Presentación-->
+
         <!--Seccion destacados-->
-        <h1 class="fw-bold text-uppercase text-center">Destacados</h1>
-        <container>
-
-        </container>
-        <!--Formulario de contacto-->
-        <h1 class="fw-bold text-uppercase text-center">Contacto</h1>
-        <section>
-
-        </section>
-        <!--Footer con redes sociales-->
-        <div>
-            <h2>Viajes por Chile</h2>
-        </div>
-        <!--Redes sociales-->
-        <div>
-
-        </div>
-    </container>
+        <section id="destacados">
+            <h1 class="fw-bold text-uppercase text-center">Destacados</h1>
+            
+        </section><!--Fin destacados-->
     
+        <!--Formulario de contacto-->
+        <section id="contacto">
+            <h1 class="fw-bold text-uppercase text-center">Contacto</h1>
+  
+        </section><!--Fin contacto-->
+
+        <!--Footer con redes sociales-->
+        <section>
+            <div>
+                <h2>Viajes por Chile</h2>
+            </div>
+            <!--Redes sociales-->
+            <div>
+
+            </div>
+        </section><!--Fin Footer-->
+    </div> <!--Fin main-container-->
+
     <!--Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <!--Bootstrap JS-->
